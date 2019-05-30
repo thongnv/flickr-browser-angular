@@ -1,0 +1,18 @@
+.card-item {
+  display: flex;
+  border: solid 1px #f0f0f0;
+}
+
+.description {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.thumbnail {
+  min-width: 240px;
+  border-right: solid 1px #f0f0f0;
+}
+.label {
+  font-style: italic;
+  color: darkcyan;
+}

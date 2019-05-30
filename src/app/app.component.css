@@ -1,0 +1,24 @@
+.header {
+  height: 44px;
+  background: #F0F0F0;
+  border-bottom: solid 1px #CCC;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.search-box {
+  width: 537px;
+  height: 25px;
+  padding: 10px 22px;
+  font-size: 18px;
+  border: none;
+  border-radius: 22px;
+}
+
+.search-box:focus {
+  outline: transparent;
+}
+
+.search-results {
+  padding: 0 10px 0 10px;
+}
