@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
+import { ExtractAuthorPipe } from './extract-author.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CardComponent,
+    ExtractAuthorPipe
   ],
   imports: [
     BrowserModule,
